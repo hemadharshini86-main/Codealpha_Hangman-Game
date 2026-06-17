@@ -65,6 +65,6 @@ while incorrect_guesses < max_incorrect:
 
 # If player loses
 if incorrect_guesses == max_incorrect:
-    print(" Game Over! Better luck next time")
+    print(" Game Over!")
     print("The correct word was:", secret_word)
 
