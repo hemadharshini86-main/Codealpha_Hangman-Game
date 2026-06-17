@@ -60,7 +60,7 @@ while incorrect_guesses < max_incorrect:
     else:
         incorrect_guesses += 1
         remaining = max_incorrect - incorrect_guesses
-        print(" Wrong guess! Still only one chance left")
+        print(" Wrong guess! ")
         print("Remaining incorrect guesses:", remaining, "\n")
 
 # If player loses
